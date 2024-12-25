@@ -6,6 +6,10 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('<h1>Hello World!</h1>')
 })
+app.get('/login', (req, res) => {
+    res.send('<h1>ufheurh!</h1>')
+  })
+
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
